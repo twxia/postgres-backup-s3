@@ -40,7 +40,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: bartels/postgres-backup-s3:${{ matrix.postgres }}
+          tags: twxia/postgres-backup-s3:${{ matrix.postgres }}
           build-args: |
             ALPINE_VERSION=${{ matrix.alpine }}
           platforms: |
